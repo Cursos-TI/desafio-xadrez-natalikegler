@@ -3,7 +3,9 @@
 int main()
 {
 
-    // - Simular movimento Cavalo: 2 para baixo, 1 esquerda
+    // Desafio 1: Simular movimento Cavalo: 2 para baixo, 1 esquerda
+
+    // Desafio 2: loops mais complexos. 2 para cima e 1 direita
 
     int i, j;
 

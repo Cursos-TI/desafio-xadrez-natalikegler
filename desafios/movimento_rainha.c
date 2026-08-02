@@ -3,9 +3,11 @@
 int main()
 {
 
-    // Simular movimento: Rainha: 8 casas p/ esquerda
+    // Desafio 1: simular movimento da rainha: 8 casas p/ esquerda
 
-    int i;
+    // Desafio 2: use recursividade
+
+        int i;
 
     for (i = 1; i <= 8; i++)
     {

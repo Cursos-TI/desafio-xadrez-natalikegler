@@ -3,7 +3,9 @@
 int main()
 {
 
-    // - Simular movimento: Torre: 5 casas p/ direita
+    // Desafio 1: Simular movimento da torre 5 casas p/ direita
+
+    // Desafio 2: use recursividade
 
     int i;
 

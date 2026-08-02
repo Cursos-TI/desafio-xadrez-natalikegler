@@ -2,7 +2,9 @@
 
 int main()
 {
-    // - Simular movimento Bispo: diagonal (cima e direita)
+    // Desafio 1: Simular movimento Bispo: diagonal (cima e direita)
+
+    // Desafio 2: loops aninhados. Externo vertical e interno horizontal
 
     int i;
 
