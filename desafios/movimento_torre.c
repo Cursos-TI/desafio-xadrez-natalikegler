@@ -1,5 +1,14 @@
 #include <stdio.h>
 
+void movimentar_torre(int numero_movimentos)
+{
+    if (numero_movimentos > 0)
+    {
+        movimentar_torre(numero_movimentos - 1);
+        printf("Movimento %d: Direita\n", numero_movimentos);
+    }
+}
+
 int main()
 {
 
@@ -7,10 +16,7 @@ int main()
 
     // Desafio 2: use recursividade
 
-    int i;
-
-    for (i = 1; i <= 5; i++)
-    {
-        printf("Movimento %d da torre: Direita \n", i);
-    }
+    int numero_movimentos = 5;
+    printf("Torre vai andar %dx para a direita \n", numero_movimentos);
+    movimentar_torre(numero_movimentos);
 }
