@@ -18,4 +18,5 @@ int main()
     int numero_movimentos = 8;
     printf("Rainha vai se movimentar %dx para a esquerda!\n", numero_movimentos);
     movimentar_rainha(numero_movimentos);
+    return 0;
 }

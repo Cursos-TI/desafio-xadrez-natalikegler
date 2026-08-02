@@ -19,4 +19,5 @@ int main()
     int numero_movimentos = 5;
     printf("Torre vai andar %dx para a direita \n", numero_movimentos);
     movimentar_torre(numero_movimentos);
+    return 0;
 }

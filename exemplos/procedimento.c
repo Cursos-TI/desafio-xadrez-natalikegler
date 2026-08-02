@@ -14,4 +14,5 @@ int main()
     int quantidade = 10;
     printf("Contagem regressiva...\n");
     recursivo(quantidade);
+    return 0;
 };
